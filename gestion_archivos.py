@@ -18,3 +18,8 @@ def agregar_contenido_archivo(nombre,contenido):
     archivo = open (nombre, "at")
     archivo.write("\n + contenido")
     archivo.close()
+
+def leer_archivo(nombre):
+    archivo = open(nombre, "rt", encoding='utf8')
+    contenido = archivo.read()    
+    return contenido
