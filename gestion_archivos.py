@@ -10,5 +10,11 @@ def crear_archivo(nombre,contenido):
      archivo=open(nombre,"wt")
      archivo.writable(contenido)
      archivo.close()
+
 def eliminar_archivo(nombre):
     os.remove(nombre)
+
+def agregar_contenido_archivo(nombre,contenido):
+    archivo = open (nombre, "at")
+    archivo.write("\n + contenido")
+    archivo.close()
