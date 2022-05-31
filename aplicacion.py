@@ -37,3 +37,9 @@ def listar():
      print("--Mostrar contenido de un archivo--")
      archivo = input("Archivo") 
      
+          
+def salir():
+     print("Gracias por su visita....") 
+     
+def error():
+     print("Opcion incorrecta")
