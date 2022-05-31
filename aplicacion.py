@@ -20,3 +20,8 @@ def crear():
      archivo = input("Archivo: ")
      contenido = input("Contenido: ")
      gestion_archivos.crear_archivos(archivo, contenido)
+     
+def eliminar():
+     print("--Eliminar archivo")
+     archivo = input("Archivo: ")
+     gestion_archivos.eliminar_archivo(archivo)
