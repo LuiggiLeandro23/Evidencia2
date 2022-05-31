@@ -25,3 +25,10 @@ def eliminar():
      print("--Eliminar archivo")
      archivo = input("Archivo: ")
      gestion_archivos.eliminar_archivo(archivo)
+
+def agregar():
+     print("--Agregar Datos a un Archivo--")
+     archivo = input("Archivo: ")
+  
+     contenido = input("Contenido: ")
+     gestion_archivos.agregar_contenido_archivo(archivo, contenido)
